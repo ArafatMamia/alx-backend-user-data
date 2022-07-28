@@ -62,4 +62,4 @@ def logout():
     if not deleted:
         abort(404)
 
-    return jsonify({}), 20
+    return jsonify({}), 200
